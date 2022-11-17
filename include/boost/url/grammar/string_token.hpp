@@ -49,6 +49,10 @@ namespace string_token {
 */
 struct arg
 {
+    /** Destructor
+    */
+    virtual ~arg() = default;
+
     /** Return a modifiable character buffer
 
         This function attempts to obtain a
